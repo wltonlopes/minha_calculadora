@@ -11,10 +11,30 @@
   <div>
     <main class="main">
       <form action="" name="calculadora">
+        <input type="text" class="" name="display" disabled>
+        <input type="text" class="textmaincolor" name="text2" value="c" 
+        onclick="location.reload()"><br>
 
+        <input type="button" class="numcolor" name="b9" value="9" onclick="displaynum(b9.value)">
+        <input type="button" class="numcolor" name="b8" value="8" onclick="displaynum(b8.value)">
+        <input type="button" class="numcolor" name="b7" value="7" onclick="displaynum(b7.value)">
+        <input type="button" class="operador" name="mais" value="+" onclick="displaynum(mais.value)"><br>
+        <input type="button" class="numcolor" name="b6" value="6" onclick="displaynum(b6.value)">
+        <input type="button" class="numcolor" name="b5" value="5" onclick="displaynum(b5.value)">
+        <input type="button" class="numcolor" name="b4" value="4" onclick="displaynum(b4.value)">
+        <input type="button" class="operador" name="-" value="-" onclick="displaynum(menos.value)"><br>
+        <input type="button" class="numcolor" name="b3" value="3" onclick="displaynum(b3.value)">
+        <input type="button" class="numcolor" name="b2" value="2" onclick="displaynum(b2.value)">
+        <input type="button" class="numcolor" name="b1" value="1" onclick="displaynum(b1.value)">
+        <input type="button" class="operador" name="vezes" value="*" onclick="displaynum(vezes.value)"><br>
+        <input type="button" class="numcolor" name="bp" value="." onclick="displaynum(bp.value)">
+        <input type="button" class="numcolor" name="b0" value="0" onclick="displaynum(b0.value)">
+        <input type="button" class="operador" name="igual" value="=" onclick="display.value=eval(display.value)">
+        <input type="button" class="operador" name="div" value="/" onclick="displaynum(div.value)"><br>
       </form>
 
     </main>
   </div>
 </body>
+<script src="script.js"></script>
 </html>
